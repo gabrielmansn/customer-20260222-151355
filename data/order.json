@@ -1,16 +1,3 @@
 {
-  "yritys_nimi": "Esimerkki Kampaamo",
-  "toimiala": "kampaamo",
-  "osoite": "Esimerkkikatu 1, 00100 Helsinki",
-  "puhelin": "+358 40 123 4567",
-  "email": "info@esimerkki.fi",
-  "tyyli": "moderni",
-  "fontti": "Inter",
-  "variteema": "tummansininen ja valkoinen",
-  "palvelut_kuvaus": "Hiustenleikkaus, värjäys, permanentti",
-  "hinnasto": "Leikkaus 35–55€, Värjäys 80–150€",
-  "aukiolo": "Ma–Pe 9–18, La 10–16",
-  "instagram": "@esimerkki.kampaamo",
-  "facebook_nimi": "Esimerkki Kampaamo",
-  "lisatoiveet": "Moderni ja selkeä ilme, ajanvaraus-CTA näkyvästi"
+  "raw_body": "No message provided<br/><br/><b>Additional fields</b></br><b>yritysnimi</b>: Claude esimerkki<br/><b>ytunnus</b>: <br/><b>toimiala</b>: kampaamo<br/><b>osoite</b>: Aleksanterinkatu 20<br/><b>puhelin</b>: 040 0450902<br/><b>email</b>: gabriel.mansnerus@gmail.com<br/><b>valittu_tyyli</b>: Moderni<br/><b>valittu_fontti</b>: Roboto<br/><b>valittu_variteema</b>: Sininen & Valkoinen<br/><b>oma_hex_vari</b>: <br/><b>palvelut</b>: generoi tähän Claude.<br/><b>hinnasto</b>: generoi tähän Claude.<br/><b>aukiolo</b>: generoi tähän Claude.<br/><b>instagram</b>: <br/><b>facebook</b>: <br/><b>vapaat_toiveet</b>: generoi tähän Claude.<br/><b>paketti</b>: 12kk<br/><b>toiveet</b>: "
 }
