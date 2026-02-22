@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Claude esimerkki - Laadukas kampaamo Aleksanterinkatu 20. Hiustenleikkaukset, värjäykset ja kampaustenhoidot ammattitaidolla. Varaa aikasi jo tänään!">
+    <meta name="keywords" content="kampaamo, hiustenleikkaus, värjäys, kampaus, Helsinki, parturi">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Claude esimerkki | Kampaamo Helsinki">
+    <meta property="og:description" content="Laadukas kampaamo Aleksanterinkatu 20. Hiustenleikkaukset, värjäykset ja kampaukset ammattitaidolla.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fi_FI">
+    
+    <title>Claude esimerkki | Kampaamo Helsinki</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "Claude esimerkki",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Aleksanterinkatu 20",
+            "addressLocality": "Helsinki",
+            "addressCountry": "FI"
+        },
+        "telephone": "+358400450902",
+        "email": "gabriel.mansnerus@gmail.com",
+        "openingHours": ["Mo-Fr 09:00-18:00", "Sa 10:00-16:00"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigaatio -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Claude esimerkki</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#etusivu" class="nav__link">Etusivu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#palvelut" class="nav__link">Palvelut</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#hinnasto" class="nav__link">Hinnasto</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#meista" class="nav__link">Meistä</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#yhteystiedot" class="nav__link nav__link--cta">Varaa aika</a>
+                    </li>
+                </ul>
+                
+                <button class="nav__close" id="nav-close" aria-label="Sulje valikko">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            
+            <button class="nav__toggle" id="nav-toggle" aria-label="Avaa valikko">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero-osio -->
+        <section class="hero" id="etusivu">
+            <div class="hero__background"></div>
+            <div class="hero__content container">
+                <span class="hero__badge">Tervetuloa</span>
+                <h1 class="hero__title">Hiustenhoitoa<br><span class="hero__title--accent">intohimolla</span></h1>
+                <p class="hero__description">Ammattitaitoista hiustenhoitoa modernissa ympäristössä. Löydä oma tyylisi asiantuntevassa ohjauksessamme.</p>
+                <div class="hero__buttons">
+                    <a href="#yhteystiedot" class="btn btn--primary">
+                        <span>Varaa aika</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#palvelut" class="btn btn--secondary">Katso palvelut</a>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <span>Vieritä alas</span>
+                <div class="hero__scroll-icon"></div>
+            </div>
+        </section>
+
+        <!-- Luottamustekijät -->
+        <section class="trust">
+            <div class="container">
+                <div class="trust__grid">
+                    <div class="trust__item">
+                        <div class="trust__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <div class="trust__text">
+                            <strong>10+ vuotta</strong>
+                            <span>kokemusta</span>
+                        </div>
+                    </div>
+                    <div class="trust__item">
+                        <div class="trust__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <div class="trust__text">
+                            <strong>500+</strong>
+                            <span>tyytyväistä asiakasta</span>
+                        </div>
+                    </div>
+                    <div class="trust__item">
+                        <div class="trust__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <div class="trust__text">
+                            <strong>Laadukkaat</strong>
+                            <span>tuotteet</span>
+                        </div>
+                    </div>
+                    <div class="trust__item">
+                        <div class="trust__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <div class="trust__text">
+                            <strong>Helppo</strong>
+                            <span>ajanvaraus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Palvelut -->
+        <section class="services" id="palvelut">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Palvelumme</span>
+                    <h2 class="section-title">Mitä tarjoamme</h2>
+                    <p class="section-description">Ammattitaitoinen tiimimme tarjoaa monipuolisia hiuspalveluita kaiken ikäisille.</p>
+                </div>
+                
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Hiustenleikkaukset</h3>
+                        <p class="service-card__description">Naisten, miesten ja lasten leikkaukset. Löydämme sinulle sopivan tyylin kasvojesi muodon ja hiustesi laadun mukaan.</p>
+                        <span class="service-card__price">alk. 35€</span>
+                    </article>
+                    
+                    <article class="service-card service-card--featured">
+                        <div class="service-card__badge">Suosittu</div>
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Värjäykset</h3>
+                        <p class="service-card__description">Täysvärjäys, raidoitukset, balayage ja ombré. Käytämme laadukkaita tuotteita hiustesi hyvinvoinnin takaamiseksi.</p>
+                        <span class="service-card__price">alk. 75€</span>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                                <line x1="16" y1="8" x2="2" y2="22"/>
+                                <line x1="17.5" y1="15" x2="9" y2="15"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Kampaukset</h3>
+                        <p class="service-card__description">Juhlakampaukset häihin, valmistujaisiin ja muihin erityistilaisuuksiin. Myös arkikampaukset ja letitykset.</p>
+                        <span class="service-card__price">alk. 55€</span>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
+                                <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Hiushoidot</h3>
+                        <p class="service-card__description">Syvähoitavat käsittelyt, keratiinihoidot ja hiuspohjan hoidot. Palauta hiustesi elinvoima ja kiilto.</p>
+                        <span class="service-card__price">alk. 45€</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hinnasto -->
+        <section class="pricing" id="hinnasto">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Hinnasto</span>
+                    <h2 class="section-title">Selkeä hinnoittelu</h2>
+                    <p class="section-description">Kaikki hintamme sisältävät konsultaation ja hiusten pesun.</p>
+                </div>
+                
+                <div class="pricing__wrapper">
+                    <div class="pricing__category">
+                        <h3 class="pricing__category-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 2v4M12 18v4"/>
+                            </svg>
+                            Leikkaukset
+                        </h3>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <span class="pricing__service">Naisten leikkaus</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">45–55€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Miesten leikkaus</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">35–40€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Lasten leikkaus (alle 12v)</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">25–30€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Otsatukan siistiminen</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">15€</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing__category">
+                        <h3 class="pricing__category-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                            </svg>
+                            Värjäykset
+                        </h3>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <span class="pricing__service">Tyviväri</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">75–85€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Täysvärjäys</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">95–120€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Raidoitus (foliot)</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">110–150€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Balayage / Ombré</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">150–200€</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing__category">
+                        <h3 class="pricing__category-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                            </svg>
+                            Kampaukset & Hoidot
+                        </h3>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <span class="pricing__service">Juhlakampaus</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">55–80€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Morsiuskampaus</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">90–120€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Tehohoito</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">25–35€</span>
+                            </li>
+                            <li class="pricing__item">
+                                <span class="pricing__service">Keratiinihoito</span>
+                                <span class="pricing__dots"></span>
+                                <span class="pricing__price">150–250€</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p class="pricing__note">* Hinnat voivat vaihdella hiusten pituuden ja työmäärän mukaan. Pyydä tarkka hinta-arvio varauksen yhteydessä.</p>
+            </div>
+        </section>
+
+        <!-- Meistä -->
+        <section class="about" id="meista">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__content">
+                        <span class="section-badge">Meistä</span>
+                        <h2 class="section-title">Intohimona hiukset</h2>
+                        <p class="about__text">Claude esimerkki on moderni kampaamo, jossa yhdistyvät ammattitaito, laatu ja ystävällinen palvelu. Haluamme, että jokainen asiakas lähtee meiltä tyytyväisenä ja itsevarmuutta huokuen.</p>
+                        <p class="about__text">Käytämme vain laadukkaita tuotteita ja seuraamme aktiivisesti alan uusimpia trendejä. Kouluttaudumme säännöllisesti varmistaaksemme, että osaamme tarjota sinulle parasta mahdollista palvelua.</p>
+                        
+                        <ul class="about__features">
+                            <li class="about__feature">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Ammattitaitoinen henkilökunta</span>
+                            </li>
+                            <li class="about__feature">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Laadukkaat tuotteet</span>
+                            </li>
+                            <li class="about__feature">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Viihtyisä ympäristö</span>
+                            </li>
+                            <li class="about__feature">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Yksilöllinen palvelu</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__image">
+                        <div class="about__image-wrapper">
+                            <div class="about__image-placeholder">
+                                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                    <circle cx="8.5" cy="8.5" r="1.5"/>
+                                    <polyline points="21 15 16 10 5 21"/>
+                                </svg>
+                                <span>Kuva tulossa</span>
+                            </div>
+                        </div>
+                        <div class="about__stats">
+                            <div class="about__stat">
+                                <span class="about__stat-number">10+</span>
+                                <span class="about__stat-label">vuotta kokemusta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aukioloajat -->
+        <section class="hours">
+            <div class="container">
+                <div class="hours__card">
+                    <div class="hours__content">
+                        <h2 class="hours__title">Aukioloajat</h2>
+                        <ul class="hours__list">
+                            <li class="hours__item">
+                                <span class="hours__day">Maanantai – Perjantai</span>
+                                <span class="hours__time">09:00 – 18:00</span>
+                            </li>
+                            <li class="hours__item">
+                                <span class="hours__day">Lauantai</span>
+                                <span class="hours__time">10:00 – 16:00</span>
+                            </li>
+                            <li class="hours__item hours__item--closed">
+                                <span class="hours__day">Sunnuntai</span>
+                                <span class="hours__time">Suljettu</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hours__cta">
+                        <p>Varaa aikasi jo tänään!</p>
+                        <a href="#yhteystiedot" class="btn btn--primary">
+                            <span>Ota yhteyttä</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Yhteystiedot & Lomake -->
+        <section class="contact" id="yhteystiedot">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Yhteystiedot</span>
+                    <h2 class="section-title">Ota yhteyttä</h2>
+                    <p class="section-description">Varaa aikasi tai kysy lisätietoja – vastaamme mielellämme!</p>
+                </div>
+                
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3>Käyntiosoite</h3>
+                                <p>Aleksanterinkatu 20<br>Helsinki</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3>Puhelin</h3>
+                                <a href="tel:0400450902">040 045 0902</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3>Sähköposti</h3>
+                                <a href="mailto:gabriel.mansnerus@gmail.com">gabriel.mansnerus@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__form-wrapper">
+                        <form class="contact__form" id="contact-form" action="#" method="POST">
+                            <h3 class="contact__form-title">Lähetä viesti</h3>
+                            
+                            <div class="form__group">
+                                <label for="name" class="form__label">Nimi *</label>
+                                <input type="text" id="name" name="name" class="form__input" required placeholder="Nimesi">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="email" class="form__label">Sähköposti *</label>
+                                <input type="email" id="email" name="email" class="form__input" required placeholder="sahkoposti@esimerkki.fi">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="phone" class="form__label">Puhelin</label>
+                                <input type="tel" id="phone" name="phone" class="form__input" placeholder="040 123 4567">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="service" class="form__label">Palvelu</label>
+                                <select id="service" name="service" class="form__select">
+                                    <option value="">Valitse palvelu</option>
+                                    <option value="leikkaus">Hiustenleikkaus</option>
+                                    <option value="varjays">Värjäys</option>
+                                    <option value="kampaus">Kampaus</option>
+                                    <option value="hoito">Hiushoito</option>
+                                    <option value="muu">Muu</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="message" class="form__label">Viesti *</label>
+                                <textarea id="message" name="message" class="form__textarea" rows="4" required placeholder="Kerro, miten voimme auttaa..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full">
+                                <span>Lähetä viesti</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                                </svg>
+                            </button>
+                        </form>
+                        
+                        <div class="contact__form-success" id="form-success" hidden>
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <h3>Kiitos viestistäsi!</h3>
+                            <p>Otamme sinuun yhteyttä mahdollisimman pian.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">Claude esimerkki</a>
+                    <p class="footer__tagline">Ammattitaitoista hiustenhoitoa modernissa ympäristössä.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4>Sivusto</h4>
+                    <ul>
+                        <li><a href="#etusivu">Etusivu</a></li>
+                        <li><a href="#palvelut">Palvelut</a></li>
+                        <li><a href="#hinnasto">Hinnasto</a></li>
+                        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h4>Yhteystiedot</h4>
+                    <ul>
+                        <li>Aleksanterinkatu 20, Helsinki</li>
+                        <li><a href="tel:0400450902">040 045 0902</a></li>
+                        <li><a href="mailto:gabriel.mansnerus@gmail.com">gabriel.mansnerus@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 Claude esimerkki. Kaikki oikeudet pidätetään.</p>
+                <p class="footer__credit">Verkkosivut: <a href="https://nopeatsivut.fi" target="_blank" rel="noopener">Nopeatsivut.fi</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
